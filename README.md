@@ -38,6 +38,11 @@
     -2）、创建一个文件在conf中叫 tag.php 和添加 一条数据  return array( 'test_init' => array( 'Admin\Behavior\UserBehavior' );
     -3）、tag( 'test_init' ,'testtsss' ) 
     
+## 控制器部分
+    -'ACTION_SUFFIX' => 'Action', // 操作方法后缀  加上这一句的话，本来 index()将需要变成 indexAction();
+    
+    - 调用控制器层使用A函数 ，A('User') ||  A('User','Event');
+    
     
 ## 未解决的问题
     -不知道为什么 thinkphp3.2.3 和3.2.2 php 版本为 5.6

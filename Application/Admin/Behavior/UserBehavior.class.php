@@ -9,12 +9,15 @@
 
 namespace Admin\Behavior;
 
+use Think\Log;
+
 class UserBehavior
 {
     public function run(&$params)
     {
         if (C('TEST_PARAM')) {
-            echo 'RUNTEST BEHAVIOR ' . $params;
+            Log::record('RUNTEST BEHAVIOR ' . json_encode($params),Log::INFO);
+            //echo 'RUNTEST BEHAVIOR ' . $params;
         }
     }
 }
