@@ -1,0 +1,270 @@
+[ 2016-09-23T18:06:51+08:00 ] 127.0.0.1 /index.php/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:06:58+08:00 ] 127.0.0.1 /index.php/Api/callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+ERR: 无法加载控制器:Callback
+
+[ 2016-09-23T18:07:02+08:00 ] 127.0.0.1 /index.php/Api/?callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:07:22+08:00 ] 127.0.0.1 /index.php/Api/?callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:07:42+08:00 ] 127.0.0.1 /index.php/Api/?callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:07:43+08:00 ] 127.0.0.1 /index.php/Api/?callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:07:44+08:00 ] 127.0.0.1 /index.php/Api/?callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:08:00+08:00 ] 127.0.0.1 /index.php/Api/?callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:08:00+08:00 ] 127.0.0.1 /index.php/Api/?callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:08:08+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:08:15+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:08:30+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:08:42+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:08:43+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:08:49+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:08:49+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:08:50+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:08:50+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:09:29+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:09:30+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:09:31+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:09:32+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:09:38+08:00 ] 127.0.0.1 /index.php/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:09:41+08:00 ] 127.0.0.1 /index.php/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:09:41+08:00 ] 127.0.0.1 /index.php/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:09:46+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:09:50+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:09:50+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:37:31+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
+[ 2016-09-23T18:37:36+08:00 ] 127.0.0.1 /index.php/Api/?callback=callback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+NOTIC: [8] Undefined index: msg E:\xiao\test\thinkphp_3.2.3_core\Application\Api\Controller\ApiController.class.php 第 22 行.
+
