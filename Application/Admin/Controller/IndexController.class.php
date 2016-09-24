@@ -7,8 +7,10 @@ use Think\Controller;
 class IndexController extends Controller
 {
     public function index(){
-        $user = D('Home/User');
+
+        M( 'Info' );
+       /* $user = M( 'User' );
         $data = $user->select();
-        print_r($data);
+        print_r($data);*/
     }
 }

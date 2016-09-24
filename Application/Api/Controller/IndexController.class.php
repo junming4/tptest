@@ -5,7 +5,6 @@ namespace Api\Controller;
 
 class IndexController extends ApiController  {
     public function index(){
-
         $result = array('code' => 0, 'data' => ['test','sjjsjsj'] );
 
         $this->ApiJson($result);

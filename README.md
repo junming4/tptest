@@ -33,3 +33,12 @@
     -app_end 应用结束标签位
 
     -【输出右下方的查询条】'SHOW_PAGE_TRACE' => true  //输出右下方的查询条，必须是 $this->display();/才会有效果的
+    
+    -【添加标签触发,由于无法找到类测试无法完成】1）、在所在的开发目录添加一个文件夹叫 Behavior并在下面创建文件为UserBehavior.php
+    -2）、创建一个文件在conf中叫 tag.php 和添加 一条数据  return array( 'test_init' => array( 'Admin\Behavior\UserBehavior' );
+    -3）、tag( 'test_init' ,'testtsss' ) 
+    
+    
+## 未解决的问题
+    -不知道为什么 thinkphp3.2.3 和3.2.2 php 版本为 5.6
+    使用 new User();都会报找不到class
