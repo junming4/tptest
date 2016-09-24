@@ -34,11 +34,36 @@
 
     -【输出右下方的查询条】'SHOW_PAGE_TRACE' => true  //输出右下方的查询条，必须是 $this->display();/才会有效果的
     
-    -【添加标签触发,由于无法找到类测试无法完成】1）、在所在的开发目录添加一个文件夹叫 Behavior并在下面创建文件为UserBehavior.php
+    -【添加标签触发】1）、在所在的开发目录添加一个文件夹叫 Behavior并在下面创建文件为UserBehavior.class.php
     -2）、创建一个文件在conf中叫 tag.php 和添加 一条数据  return array( 'test_init' => array( 'Admin\Behavior\UserBehavior' );
     -3）、tag( 'test_init' ,'testtsss' ) 
     
     
 ## 未解决的问题
     -不知道为什么 thinkphp3.2.3 和3.2.2 php 版本为 5.6
-    使用 new User();都会报找不到class
+    使用 new User();都会报找不到class【问题已经解决了，命名不规范xxx.class.php才对的】 2016/09/24
+    
+## 加载第三方内库的方法
+    -导入Org类库包 Library/Org/Util/Date.class.php类库
+    -import("Org.Util.Date");
+    - 44 -对于import方法，系统会自动识别导入类库文件的位置，ThinkPHP可以自动识别的类库包包括Think、
+    -Org、Com、Behavior和Vendor包，以及Library目录下面的子目录，如果你在Library目录下面创建了
+    -一个Test子目录，并且创建了一个UserTest.class.php类库，那么可以这样导入：
+    -其他的就认为是应用类库导入。
+    -注意，如果你的类库没有使用命名空间定义的话，实例化的时候需要加上根命名空间，例如：
+    -按照系统的规则，import方法是无法导入具有点号的类库文件的，因为点号会直接转化成斜线，例如我们
+    -定义了一个名称为User.Info.class.php 的文件的话，采用：
+    -方式加载的话就会出现错误，导致加载的文件不是Org/User.Info.class.php 文件，而是
+    -Org/User/Info.class.php 文件，这种情况下，我们可以使用：
+    -来导入。
+    -大多数情况下，import方法都能够自动识别导入类库文件的位置，如果是特殊情况的导入，需要指定
+    -import方法的第二个参数作为起始导入路径。例如，要导入当前文件所在目录下面的
+    -RBAC/AccessDecisionManager.class.php 文件，可以使用：
+    -如果你要导入的类库文件名的后缀不是class.php而是php，那么可以使用import方法的第三个参数指定
+    -后缀：
+    -// 导入Home模块下面的 Application/Home/Util/UserUtil.class.php类库
+    -import("Home.Util.UserUtil");
+    -// 导入当前模块下面的类库
+    -import("@.Util.Array");
+    -// 导入Vendor类库包 Library/Vendor/Zend/Server.class.php
+    -import('Vendor.Zend.Server');

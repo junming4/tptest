@@ -8,5 +8,5 @@
  */
 return array(
     //
-    // 'test_init' => array( 'Admin\Behavior\UserBehavior' ),暂时无法使用
+    'test_init' => array( 'Admin\Behavior\UserBehavior' ),
 );
