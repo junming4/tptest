@@ -19,7 +19,7 @@ class ApiController extends Controller
     {
 
         $result['code']  = !isset($result['code']) ? 200 : $result['code'] ; //默认赋值给code
-        if (strlen($result['msg']) < 1) {
+        if ( !isset($result['msg']) || strlen($result['msg']) < 1) {
             $result['msg'] = !empty(C('ApiCode.'.$result['code'])) ? C('ApiCode.'.$result['code']) : 'Success';
         }
         if (!is_array($result['data']) || empty($result['data']) || $result['data'] == array(array())) $result['data'] = array();

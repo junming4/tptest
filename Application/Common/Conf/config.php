@@ -15,5 +15,6 @@ return array(
     //只能访问这些模块
     'MODULE_ALLOW_LIST' => array('Home','Admin','Api'),
     'DEFAULT_MODULE' => 'Home',  //默认访问模块
+    'SHOW_PAGE_TRACE' => true  //输出右下方的查询条，必须是 $this->display();/才会有效果的
 
 );
