@@ -17,6 +17,8 @@ if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 
 //define('BIND_MODULE','Home');    //默认模块
 
+//define('APP_STATUS','office'); 将会去加载【Application/Common/Conf/office.php】
+
 // 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
 define('APP_DEBUG',True);
 

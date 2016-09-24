@@ -3,11 +3,8 @@
 namespace Api\Controller;
 
 
-use Think\Think;
-
 class IndexController extends ApiController  {
     public function index(){
-        Think::
         $result = array('code' => 0, 'data' => ['test','sjjsjsj'] );
         $this->ApiJson($result);
     }
