@@ -72,3 +72,43 @@
     -import("@.Util.Array");
     -// 导入Vendor类库包 Library/Vendor/Zend/Server.class.php
     -import('Vendor.Zend.Server');
+    
+##  魔术方法
+   - function __set() 设置类参数不存在的时候就会自动调用 $test->title='hh';//如果title不存在
+   - function __get() 获取类参数不存在的时候就会自动调用 echo $test->title;//如果title不存在
+   - function __call() 调用类方法不存在的时候就会自动调用  $test->happy('test'); //如果happy函数不存在
+   - function __callStatic() 调用类[静态]方法不存在的时候就会自动调用  Test::happy('test');  //如果happy函数不存在
+   - function __toString()  当对象以字符串出现的时候自动调用  echo $test;
+   - function __invoke() 当一个对象当成函数去调用的时候自动调用  $test("geooo"); 
+   
+## php模式
+   - 1、工厂模式 ： 不用 new来实例化对象【修改配置简单】
+       namespace Home\Factory;
+       class Factory{
+            static function createDatabase(){
+                $db = new DataBase();
+                return $db;
+            }
+       }
+       $db = \Home\Factory::createDatabase();
+   - 2、单列模式 : 一个对象只实例化一次
+        namespace Home\DataBase;
+        class DataBase{
+            private static $db;
+            private function __construct(){}
+            static function getInstance(){
+                if( self::$db instanceof self ) self::$db = new self;
+                return self::$db;
+            }
+        }
+       - 工厂模式+单列模式
+       namespace Home\Factory;
+       class Factory{
+            static function createDatabase(){
+                $db = Home\DataBase::getInstance();
+                return $db;
+            }
+       }
+   - 3、注册模式 ：
+   
+    
