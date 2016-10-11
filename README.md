@@ -81,6 +81,38 @@
    - function __toString()  当对象以字符串出现的时候自动调用  echo $test;
    - function __invoke() 当一个对象当成函数去调用的时候自动调用  $test("geooo"); 
    
+##  php Spl的几种数据结构
+   
+       - 1、spl 栈数据结构
+       - $splStack = new \SplStack(); //栈数据结构【先进后出】
+       - $splStack->push("push1\n");
+       - $splStack->push("push2\n");
+       - echo $splStack->pop();
+       - echo "<br/>";
+       - echo $splStack->pop();
+   
+       - 2、spl 队列数据结构 【先进先出，后进后出】
+       - $splQueue = new \SplQueue();
+       - $splQueue->enqueue("push1");
+       - $splQueue->enqueue("push2");
+       - echo $splQueue->dequeue();
+       - echo "<br/>";
+       - echo $splQueue->dequeue();
+   
+       - 3、spl 堆数据结构
+       - $splMinHeap = new \SplMinHeap();
+       - $splMinHeap->insert("splMinHeap1\n");
+       - $splMinHeap->insert("splMinHeap2\n");
+       - echo $splMinHeap->extract();
+       - echo "<br/>";
+       - echo $splMinHeap->extract();
+   
+       - 4、固定长度的数组
+       - $splFixedArray = new \SplFixedArray(10);
+       - $splFixedArray[0] = 'xiaojunming';
+       - $splFixedArray[5] = '哈哈';
+       - print_r($splFixedArray);
+   
 ## php模式
    - 1、工厂模式 ： 不用 new来实例化对象【修改配置简单】
        namespace Home\Factory;
@@ -109,6 +141,10 @@
                 return $db;
             }
        }
-   - 3、注册模式 ：
+   - 3、注册模式 ：  全局共享和交换对象
+   
+   - 4、适配模式 ： 可以将截然不同的函数接口封装成统一的api,【可以使用接口继承方式或者继承超像类方式来实现，TP中Cache、Cache、Log等都有用到了适配模式了】
+   
+   - 5、策略模式 ： 将一组特定的行为和算法封装成类，以适应某些特定的上下文环境，这种模式就是策略模式。
    
     
