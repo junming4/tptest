@@ -1,4 +1,5 @@
-﻿## 简介
+﻿## 把我的项目提交到github 中git remote add origin https://github.com/junming4/tptest.git
+## 简介
 ##该项目使用thinkphp 3.2.3 版本
     该项目分为
     -Admin 后台模块
