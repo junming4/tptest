@@ -155,5 +155,7 @@
     -跳回到未来
     git reflog 
     git reset --hard 版本号【第二个才是】
+
+##  SecKill 目录下为秒杀测试案例【是不可运行的】
    
     
