@@ -151,6 +151,9 @@
    ## git 其他命令部分
     - 返回版本
     git log 
-    git reset --hard 版本号
+    git reset --hard 版本号【第二个才是】
+    -跳回到未来
+    git reflog 
+    git reset --hard 版本号【第二个才是】
    
     
